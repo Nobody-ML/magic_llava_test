@@ -16,6 +16,7 @@ from lmdeploy.serve.gradio.constants import CSS, THEME, disable_btn, enable_btn
 from lmdeploy.tokenizer import DetokenizeState
 from lmdeploy.utils import get_logger
 
+os.system("pip install flash-attn --no-build-isolation")
 #验证SDK token
 from modelscope.hub.api import HubApi
 api = HubApi()

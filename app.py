@@ -3,6 +3,7 @@ import time
 from dataclasses import dataclass, field
 from itertools import count
 from typing import List, Literal, Optional, Tuple, Union
+import os
 
 import gradio as gr
 from packaging.version import Version, parse

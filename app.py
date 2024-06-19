@@ -86,6 +86,7 @@ def run_local(model_path: str,
                            backend_config=backend_config,
                            chat_template_config=chat_template_config,
                            tp=tp,
+                           cache_max_entry_count = 0.2,
                            **kwargs)
 
     def add_image(chatbot, session, file):

@@ -16,6 +16,12 @@ from lmdeploy.serve.gradio.constants import CSS, THEME, disable_btn, enable_btn
 from lmdeploy.tokenizer import DetokenizeState
 from lmdeploy.utils import get_logger
 
+#验证SDK token
+from modelscope.hub.api import HubApi
+api = HubApi()
+api.login('c4d821fc-e29a-4215-81c1-0560e042cdb9')
+
+#模型下载
 from modelscope import snapshot_download
 model_dir = snapshot_download('OpenGVLab/Mini-InternVL-Chat-2B-V1-5', cache_dir='/home/xlab-app-center')
 

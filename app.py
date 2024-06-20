@@ -18,10 +18,6 @@ from lmdeploy.tokenizer import DetokenizeState
 from lmdeploy.utils import get_logger
 
 # os.system("pip install flash-attn --no-build-isolation")
-#验证SDK token
-from modelscope.hub.api import HubApi
-api = HubApi()
-api.login('c4d821fc-e29a-4215-81c1-0560e042cdb9')
 
 #模型下载
 from modelscope import snapshot_download

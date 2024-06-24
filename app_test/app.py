@@ -4,7 +4,7 @@ import os
 # os.system("cd /home/xlab-app-center")
 # os.system("ls")
 
-test = os.getenv("TEST")
+test = os.getenv(TEST)
 print(test)
 # os.system("cd /home/xlab-app-center/app_test/")
 # os.system("pip install -r /home/xlab-app-center/app_test/requirements.txt")

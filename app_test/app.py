@@ -1,11 +1,13 @@
 import os
-
+import streamlit as st
 # os.system("ls")
 # os.system("cd /home/xlab-app-center")
 # os.system("ls")
-
+print("----------------")
 test = os.getenv("TEST")
+st.markdown(test)
 print(test)
+st.markdown(test)
 # os.system("cd /home/xlab-app-center/app_test/")
 # os.system("pip install -r /home/xlab-app-center/app_test/requirements.txt")
 # os.system("python app_test/download.py")
